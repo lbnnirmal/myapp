@@ -127,3 +127,26 @@ Rendering rescues/layout (not_found)
 Processing PagesController#home (for 127.0.0.1 at 2011-06-08 15:29:24) [GET]
 Rendering pages/home
 Completed in 266ms (View: 250, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-06-08 16:29:09) [GET]
+Rendering pages/about
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-06-08 16:43:03) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-08 16:43:10) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 94ms (View: 78, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-06-08 16:43:16) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/pages/contact]
