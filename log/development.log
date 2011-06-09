@@ -849,3 +849,111 @@ Rendered layouts/_stylesheets (0.0ms)
 Rendered layouts/_header (0.0ms)
 Rendered layouts/_footer (0.0ms)
 Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 10:14:50) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 10:14:50) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 10:15:08) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 172ms (View: 172, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-06-09 10:15:10) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-06-09 10:15:11) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/contact]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2011-06-09 10:15:13) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/help]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 10:15:14) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 10:20:29) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 10:21:02) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 187ms (View: 187, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-06-09 10:21:04) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (15.6ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-06-09 10:21:06) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 10:21:08) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
