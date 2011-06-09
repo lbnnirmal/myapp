@@ -957,3 +957,274 @@ Rendered layouts/_stylesheets (0.0ms)
 Rendered layouts/_header (0.0ms)
 Rendered layouts/_footer (0.0ms)
 Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (15.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20110609053011)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110609053011')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20110609053011)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mDROP TABLE "users"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20110609053011'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20110609053011)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20110609053011')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Michael Hartl', '2011-06-09 05:41:40', '2011-06-09 05:41:40', 'mhartl@example.com')[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Michael Hartl1', '2011-06-09 05:43:05', '2011-06-09 05:43:05', 'mhartl1@example.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) [0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (15.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (62.5ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (62.5ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (93.8ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
+  [4;35;1mSQL (93.8ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20110609053011')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'USER@EXAMPLE.COM') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Example User', '2011-06-09 06:03:18', '2011-06-09 06:03:18', 'USER@EXAMPLE.COM')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'user@example.com') LIMIT 1[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20110609053011)
+Migrating to AddEmailUniquenessIndex (20110609060534)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110609060534')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('index_users_on_email')[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 11:38:50) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 156ms (View: 156, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 11:38:58) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'mhartl@example.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "created_at", "updated_at", "email") VALUES('Michael Hartl', '2011-06-09 06:13:46', '2011-06-09 06:13:46', 'mhartl@example.com')[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-06-09 11:46:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 219ms (View: 203, DB: 0) | 200 OK [http://localhost/users/show/1]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-06-09 11:46:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 109ms (View: 0, DB: 0) | 200 OK [http://localhost/users/show/1]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 11:46:53) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2011-06-09 11:46:55) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/help]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 11:46:59) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 11:47:41) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (15.6ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 94ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2011-06-09 11:47:45) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (15.6ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-06-09 11:47:46) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 141ms (View: 125, DB: 0) | 200 OK [http://localhost/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 11:47:51) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-06-09 11:47:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/show/1]
+
+
+Processing UsersController#1 (for 127.0.0.1 at 2011-06-09 11:48:25) [GET]
+
+ActionController::UnknownAction (No action responded to 1. Actions: new and show):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-06-09 11:49:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/users/1]

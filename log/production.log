@@ -1,0 +1,24 @@
+
+
+Processing PagesController#home (for 127.0.0.1 at 2011-06-09 11:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2011-06-09 11:46:04) [GET]
+  Parameters: {"id"=>"1"}
+
+ActionController::UnknownAction (No action responded to show. Actions: new):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
